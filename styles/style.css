@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: 'Space Mono', helvetica;
+    font-weight: 400;
+    letter-spacing: -.05em;
+    margin: 20px 20px;
+    max-width: 500px;
+    margin: auto;
+}
+
+#logo {
+    font-weight: 700;
+    font-style: bold;
+    font-size: 2em;
+}
+
+nav>ul {
+    text-align: right;
+    list-style-type: none;
+}
+
+img {
+    display: block;
+    margin: 30px auto;
+}
+
+#empresas {
+    margin: 70px auto;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a.selected {
+    background-color: black;
+    color: white;
+}
